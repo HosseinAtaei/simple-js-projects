@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="./style/bootstrap.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/calc.css">
+</head>
+
+<body id="backGround">
+    <header id="Header">
+        <div id="Logo">
+            <img src="./Resources/Logo.png" alt="Logo">
+        </div>
+        <div id="Tabs">
+            <a href="./calc.html" style="font-weight: bold;">ماشین حساب</a>
+            <a href="./counter.html">شمارنده</a>
+            <a href="./colorPage.html">صفحه رنگی</a>
+        </div>
+    </header>
+    <div dir="ltr" id="Container">
+        <div>
+            <h1>ماشین حساب پارسا</h1>
+            <br>
+            <table>
+                <tr>
+                    <td colspan="3"><input type='text' id='result' placeholder="0" class='screen' disabled></td>
+                    <td><button type='button' onclick="clearLast()" class="clear">C</button></td>
+                    <td> <button type='button' onclick="clearAll()" class="clearAll">AC</button></td>
+                </tr>
+            </table>
+            <br>
+            <div class="keys">
+                <button type="button" class="button" onclick="display('7')">7</button>
+                <button type="button" class="button" onclick="display('8')">8</button>
+                <button type="button" class="button" onclick="display('9')">9</button>
+                <button type="button" class="operator" onclick="display('/')">/</button>
+                <button type="button" class="button" onclick="display('4')">4</button>
+                <button type="button" class="button" onclick="display('5')">5</button>
+                <button type="button" class="button" onclick="display('6')">6</button>
+                <button type="button" class="operator" onclick="display('*')">*</button>
+                <button type="button" class="button" onclick="display('1')">1</button>
+                <button type="button" class="button" onclick="display('2')">2</button>
+                <button type="button" class="button" onclick="display('3')">3</button>
+                <button type="button" class="operator" onclick="display('-')">-</button>
+                <button type="button" class="button" onclick="display('0')">0</button>
+                <button type="button" class="button" onclick="display('.')">.</button>
+                <button type="button" class="button equal-sign" onclick="result()">=</button>
+                <button type="button" class="operator" onclick="display('+')">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./Resources/calc.js"></script>
+
+</html>

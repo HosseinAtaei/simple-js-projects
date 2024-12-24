@@ -1,0 +1,67 @@
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: #fffff3;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #D5BDAF;
+border-radius: 10px;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fffff3;
+    color: #0b090a;
+}
+a{
+    color: #14213d;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+}
+p{
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0% 10% 0% 10%;
+}
+h2{
+    margin-right: 8%;
+}
+#backGround{
+    background-color: #F5EBE0;
+}
+#Header{
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    height: 70px;
+    background-color: #E3D5CA;
+    border-radius: 25px;
+    justify-content: space-between;
+}
+#Logo{
+    display: flex;
+    justify-content: right;
+    max-height: 80%;
+    margin-right: 50px;
+}
+#Tabs{
+    width: 40%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+#Container{
+    padding: 50px 120px 0px 120px;
+}
+#List{
+    line-height: 32px;
+    padding: 20px 200px 0px 0px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شمارنده</title>
+    <link rel="stylesheet" href="./style/bootstrap.css">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body id="backGround">
+    <header id="Header">
+        <div id="Logo">
+            <img src="./Resources/Logo.png" alt="Logo">
+        </div>
+        <div id="Tabs">
+            <a href="./calc.html">ماشین حساب</a>
+            <a href="./counter.html" style="font-weight: bold;">شمارنده</a>
+            <a href="./colorPage.html">صفحه رنگی</a>
+        </div>
+    </header>
+    <div id="Container" dir="ltr">
+        <div class="input-group mb-3">
+            <button type="button" class="btn btn-danger" onclick="decNum()">-</button>
+            <input id="number" type="text" class="form-control" value="0" disabled>
+            <button type="button" class="btn btn-danger" onclick="incNum()">+</button>
+        </div>
+        <br>
+        <center>
+            <button class="btn btn-info" onclick="resNum()">reset</button>
+        </center>
+    </div>
+</body>
+<script src="./Resources/counter.js"></script>
+
+</html>

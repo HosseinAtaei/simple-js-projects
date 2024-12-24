@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه رنگی</title>
+    <link rel="stylesheet" href="./style/bootstrap.css">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body id="backGround">
+    <header id="Header">
+        <div id="Logo">
+            <img src="./Resources/Logo.png" alt="Logo">
+        </div>
+        <div id="Tabs">
+            <a href="./calc.html">ماشین حساب</a>
+            <a href="./counter.html">شمارنده</a>
+            <a href="./colorPage.html" style="font-weight: bold;">صفحه رنگی</a>
+        </div>
+        </div>
+    </header>
+    <br>
+    <div class="container">
+        <button type="button" class="btn btn-primary" onclick="changeColor('blue')">آبی</button>
+        <button type="button" class="btn btn-secondary" onclick="changeColor('gray')"">خاکستری</button>
+        <button type=" button" class="btn btn-success" onclick="changeColor('green')">سبز</button>
+        <button type="button" class="btn btn-danger" onclick="changeColor('red')">قرمز</button>
+        <button type="button" class="btn btn-warning" onclick="changeColor('yellow')">زرد</button>
+        <button type="button" class="btn btn-info" onclick="changeColor('aqua')">آبی نیلی</button>
+        <button type="button" class="btn btn-light" onclick="changeColor('white')">سفید</button>
+        <button type="button" class="btn btn-dark" onclick="changeColor('black')">سیاه</button>
+    </div>
+</body>
+<script src="./Resources/colorPage.js"></script>
+
+</html>
